@@ -16,7 +16,6 @@ public class TimeToBuyAndSellStock121 {
                 maxProfit = Math.max(maxProfit, price - minPrice);
             }
         }
-
         return maxProfit;
     }
 }
